@@ -90,3 +90,21 @@ a{
 .pro1{
     text-align: center;
 }
+
+.part_1_testimonial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    color: white;
+    background-color: #C271FF;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    
+}
