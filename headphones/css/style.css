@@ -185,12 +185,24 @@ button{
 
 /* Contact section */
 
+.contact_form form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+}
+.contact_form form input{
+    height: 40px;
+}
+
 .contact_us{
     text-align: center;
 }
 
 .contact_form{
-    height: 400px;
+    margin: 20px;
 
 }
 
