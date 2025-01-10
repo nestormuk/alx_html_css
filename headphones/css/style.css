@@ -180,3 +180,47 @@ button{
     color: white;
     background-image: url(../Assets/headphones_hero_2.jpg);
 }
+
+
+
+/* Contact section */
+
+.contact_us{
+    text-align: center;
+}
+
+.contact_form{
+    height: 400px;
+
+}
+
+/* Footer Section */
+footer{
+    background-color: #071629;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer_logo{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.social_icon{
+    display: flex;
+    gap: 10px;
+
+}
+.logos{
+    background-color: white;
+    padding: 5px;
+    border-radius: 100px;
+}
+.logo_contain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
