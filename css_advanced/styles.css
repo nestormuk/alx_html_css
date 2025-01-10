@@ -246,3 +246,35 @@ a{
     color: #07162980;
 
 }
+
+/* Footer Section */
+footer{
+    background-color: #071629;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 50px;
+}
+.footer_logo{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.social_icon{
+    display: flex;
+    gap: 10px;
+
+}
+.logos{
+    background-color: white;
+    padding: 5px;
+    border-radius: 100px;
+}
+.logo_contain{
+    display: flex;
+    align-items: center;
+    gap:    10px;
+}
