@@ -7,6 +7,8 @@ body{
 }
 .main_part{
     background-image: url(../Assets/headphones_hero_1.jpg);
+   
+    background-repeat: no-repeat;
 }
 
 .logo_container{
@@ -55,5 +57,65 @@ body{
     .size-6{
         display: none;
     }
+
+}
+
+/* text part */
+.text{
+    padding-top: 230px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+.titles{
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.text h2{
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    
+}
+.text h4{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 22px;
+    color: white;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    background: #FF6565;
+}
+
+
+@media screen and (max-width: 768px) {
+    .text{
+        padding-top: 230px;
+        padding-bottom: 200px;
+        color: white;
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+    .main_part{
+        background-position-x: center;
+    }
+    
 
 }
